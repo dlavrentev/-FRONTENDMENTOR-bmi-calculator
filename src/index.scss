@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+@import "./_variables.scss";
+
+.h-xl {
+  @include apply-typography("h-xl");
+}
+
+.h-l {
+  @include apply-typography("h-l");
+}
+
+.h-m {
+  @include apply-typography("h-m");
+}
+
+.h-s {
+  @include apply-typography("h-s");
+}
+
+.b-m {
+  @include apply-typography("b-m");
+}
+
+.b-m-bold {
+  @include apply-typography("b-m-bold");
+}
+
+.b-s {
+  @include apply-typography("b-s");
+}

@@ -1,0 +1,26 @@
+// Typography
+$font-family: "Inter", sans-serif;
+
+$typography: (
+  'h-xl': ( 'font-size': 64px, 'font-weight': 600, 'line-height': 110% ),
+  'h-l': ( 'font-size': 48px, 'font-weight': 600, 'line-height': 110% ),
+  'h-m': ( 'font-size': 24px, 'font-weight': 600, 'line-height': 110% ),
+  'h-s': ( 'font-size': 20px, 'font-weight': 600, 'line-height': 110% ),
+  'b-m': ( 'font-size': 16px, 'font-weight': 400, 'line-height': 150% ),
+  'b-m-bold': ( 'font-size': 16px, 'font-weight': 600, 'line-height': 150% ),
+  'b-s': ( 'font-size': 14px, 'font-weight': 400, 'line-height': 150% ),
+);
+
+@mixin apply-typography($key) {
+    font-size: map-get(map-get($typography, $key), 'font-size');
+    font-weight: map-get(map-get($typography, $key), 'font-weight');
+    line-height: map-get(map-get($typography, $key), 'line-height');
+  }
+
+// Colors
+
+$color-blue: #345ff6;
+$color-gunmetal: #253347;
+$color-dark-electric-blue: #5e6e85;
+$color-borders: #d8e2e7;
+$color-pure-white: #ffffff;
