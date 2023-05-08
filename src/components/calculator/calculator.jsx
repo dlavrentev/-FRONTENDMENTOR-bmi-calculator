@@ -13,7 +13,10 @@ function calculator() {
             id="metric"
             className="calculator-unit-system-input"
           />
-          <label htmlFor="metric" className="calculator-unit-system-label b-m-bold">
+          <label
+            htmlFor="metric"
+            className="calculator-unit-system-label b-m-bold"
+          >
             Metric
           </label>
         </div>
@@ -24,32 +27,27 @@ function calculator() {
             id="imperial"
             className="calculator-unit-system-input"
           />
-          <label htmlFor="imperial" className="calculator-unit-system-label b-m-bold">
+          <label
+            htmlFor="imperial"
+            className="calculator-unit-system-label b-m-bold"
+          >
             Imperial
           </label>
         </div>
       </section>
-      <div className="calculator-input">
-        <label htmlFor="height" className="calculator-input-label b-s c-dark-electric-blue">
-          Height
-        </label>
-        <input
-          type="text"
-          name="height"
-          id="height"
-          className="calculator-input-field h-m"
-        />
+      <div className="calculator-full-input">
+        <label className="b-s c-dark-electric-blue" htmlFor="height">Height</label>
+        <div className="calculator-input">
+          <input type="text" className="h-m" />
+          <label className="h-m c-blue" htmlFor="cm">cm</label>
+        </div>
       </div>
-      <div className="calculator-input">
-        <label htmlFor="weight" className="calculator-input-label b-s c-dark-electric-blue">
-          Weight
-        </label>
-        <input
-          type="text"
-          name="weight"
-          id="weight"
-          className="calculator-input-field h-m"
-        />
+      <div className="calculator-full-input margin-top-8">
+        <label className="b-s c-dark-electric-blue" htmlFor="weight">Weight</label>
+        <div className="calculator-input">
+          <input type="text" className="h-m" />
+          <label className="h-m c-blue" htmlFor="kg">kg</label>
+        </div>
       </div>
       <div className="calculator-result c-pure-white">
         <p className="calculator-result-title b-m-bold">Your BMI is...</p>
