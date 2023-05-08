@@ -29,3 +29,33 @@
 .b-s {
   @include apply-typography("b-s");
 }
+
+.c-blue {
+  @include apply-colors('blue');
+}
+
+.c-gunmetal {
+  @include apply-colors('gunmetal');
+}
+
+.c-dark-electric-blue {
+  @include apply-colors('dark-electric-blue');
+}
+
+.c-borders {
+  @include apply-colors('borders');
+}
+
+.c-pure-white {
+  @include apply-colors('pure-white');
+}
+
+body {
+  font-family: $font-family;
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+}

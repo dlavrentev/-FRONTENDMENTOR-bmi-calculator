@@ -1,0 +1,41 @@
+@import "./../../variables";
+
+.calculator-container {
+  margin: 0 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  background: map-get($colors, 'pure-white');
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: 16px;
+  margin-top: -169px;
+}
+
+.calculator-unit-system {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.calculator-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.calculator-input input {
+    border: 1px solid map-get($colors, 'borders');
+    border-radius: 12px;
+    padding: 20px 24px;
+}
+
+
+
+.calculator-result {
+  background: linear-gradient(90deg, map-get($colors, 'blue') 0%, #587dff 100%);
+  border-radius: 16px;
+  height: 257px;
+  margin: 24px;
+  padding: 32px;
+}

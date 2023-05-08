@@ -1,0 +1,28 @@
+.header-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  background: linear-gradient(
+    290.1deg,
+    #d6e6fe 0%,
+    rgba(214, 252, 254, 0) 100%
+  );
+  border-radius: 0px 0px 35px 35px;
+}
+
+.header-container p {
+  text-align: center;
+}
+
+.header-logo {
+  height: 40px;
+  margin: 32px 0px 24px 0px;
+}
+
+.header-heading {
+  margin-bottom: 24px;
+}
+
+.header-p {
+  margin-bottom: 217px;
+}
