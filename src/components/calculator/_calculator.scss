@@ -30,7 +30,9 @@
     padding: 20px 24px;
 }
 
-
+.calculator-input input:focus {
+    border: 1px solid #345FF6;
+}
 
 .calculator-result {
   background: linear-gradient(90deg, map-get($colors, 'blue') 0%, #587dff 100%);
