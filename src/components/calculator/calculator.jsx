@@ -4,7 +4,7 @@ import "./_calculator.scss";
 function calculator() {
   return (
     <div className="calculator-container">
-      <p className="calculator-title h-m">Enter your details below</p>
+      <p className="calculator-title h-m c-gunmetal">Enter your details below</p>
       <section className="calculator-unit-system">
         <div className="calculator-unit-system-option">
           <input
@@ -15,7 +15,7 @@ function calculator() {
           />
           <label
             htmlFor="metric"
-            className="calculator-unit-system-label b-m-bold"
+            className="calculator-unit-system-label b-m-bold c-gunmetal"
           >
             Metric
           </label>
@@ -29,7 +29,7 @@ function calculator() {
           />
           <label
             htmlFor="imperial"
-            className="calculator-unit-system-label b-m-bold"
+            className="calculator-unit-system-label b-m-bold c-gunmetal"
           >
             Imperial
           </label>
@@ -38,14 +38,14 @@ function calculator() {
       <div className="calculator-full-input">
         <label className="b-s c-dark-electric-blue" htmlFor="height">Height</label>
         <div className="calculator-input">
-          <input type="text" className="h-m" />
+          <input type="text" className="h-m c-gunmetal" />
           <label className="h-m c-blue" htmlFor="cm">cm</label>
         </div>
       </div>
       <div className="calculator-full-input margin-top-8">
         <label className="b-s c-dark-electric-blue" htmlFor="weight">Weight</label>
         <div className="calculator-input">
-          <input type="text" className="h-m" />
+          <input type="text" className="h-m c-gunmetal" />
           <label className="h-m c-blue" htmlFor="kg">kg</label>
         </div>
       </div>
