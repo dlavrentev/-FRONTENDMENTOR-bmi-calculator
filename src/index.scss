@@ -10,6 +10,10 @@
   @include apply-typography("h-l");
 }
 
+.h-l-32 {
+  @include apply-typography("h-l-32");
+}
+
 .h-m {
   @include apply-typography("h-m");
 }

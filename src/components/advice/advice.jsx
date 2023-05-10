@@ -1,10 +1,10 @@
-import React from 'react'
-import "./_advice.scss"
+import React from "react";
+import "./_advice.scss";
 
 function advice() {
   return (
     <div>advice</div>
-  )
+  );
 }
 
-export default advice
+export default advice;

@@ -1,0 +1,12 @@
+.result-container {
+    display: flex;
+    flex-direction: column;
+    margin: 72px 0;
+}
+
+.result-text {
+    margin: 48px 24px 0 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
