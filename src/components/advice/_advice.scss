@@ -1,0 +1,20 @@
+.advice-container {
+  margin: 72px 0;
+  padding: 56px 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: linear-gradient(
+    290.1deg,
+    rgba(214, 230, 254, 0.25) 0%,
+    rgba(214, 252, 254, 0.25) 100%
+  );
+}
+
+.advice-card img {
+  margin-bottom: 32px;
+}
+
+.advice-card p:last-child {
+  margin-top: 24px;
+}

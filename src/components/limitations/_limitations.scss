@@ -1,0 +1,35 @@
+.limitations-container {
+  display: flex;
+  flex-direction: column;
+  margin: 72px 29px 96px 19px;
+  gap: 56px;
+}
+
+.limitations-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+
+.limitations-cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.limitations-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 16px 32px 56px rgba(143, 174, 207, 0.25);
+  border-radius: 16px;
+}
+
+.limitations-card div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
